@@ -1,0 +1,40 @@
+Minimal folder structure (no tests)
+
+src
+    Components
+        Footer.js
+        MainContainer.js
+        Navbar.js
+    Styles
+        App.css
+    App.js
+    index.js
+
+Intermediate folder structure
+
+*assets usually go in S3 bucket or so on
+
+src
+    Assets
+        Audios
+        Images
+        Videos
+    Auth
+        AuthContext.js
+    Components
+        Button.js
+        Input.js
+    Helpers
+        -- common utils or code that doesn't belong elsewhere --
+    Hooks
+    Pages
+        About
+        Login
+        Main
+        Products
+        Profile
+        index.js
+    Redux
+    App.js
+    index.js
+
